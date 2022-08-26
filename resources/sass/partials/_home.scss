@@ -8,20 +8,22 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    .film {
+        width: calc((100% / 4) - 40px);
+        padding: 5px;
+        margin: 20px;
+        background-color: lightcyan;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        
+        .form {
+            font-style: italic;
+        }
+        
+        .query {
+            color: purple;
+        }
+    }
+    
 }
 
-.film {
-    width: calc((100% / 4) - 40px);
-    padding: 5px;
-    margin: 20px;
-    background-color: lightcyan;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    
-    .form {
-        font-style: italic;
-    }
-    
-    .query {
-        color: purple;
-    }
-}
