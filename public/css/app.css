@@ -4,10 +4,37 @@
   margin: 0;
 }
 
-ul {
-  text-decoration: none;
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: lightseagreen;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 h1 {
   text-align: center;
+  color: blue;
+  padding-top: 20px;
+}
+
+.films-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.film {
+  width: calc(25% - 40px);
+  padding: 5px;
+  margin: 20px;
+  background-color: lightcyan;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.film .form {
+  font-style: italic;
+}
+.film .query {
+  color: purple;
 }
